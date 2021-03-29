@@ -1,3 +1,173 @@
+* a {
+  color: #616060;
+  text-decoration: none; }
+
+.navbar {
+  position: relative;
+  background-color: #fff;
+  padding-top: 30px; }
+  @media (max-width: 788px) {
+    .navbar .logo {
+      text-align: center;
+      margin: 0 auto; }
+    .navbar ul {
+      display: none; } }
+  .navbar ul li {
+    font-size: 17px;
+    margin: 10px;
+    display: inline-block; }
+    .navbar ul li a {
+      font-weight: 500; }
+      .navbar ul li a:hover {
+        color: #e99c2e; }
+  .navbar .ic {
+    left: 30px;
+    display: none;
+    position: absolute;
+    color: #e99c2e;
+    border: 1px solid #e99c2e;
+    padding: 15px 10px;
+    border-radius: 5px; }
+    @media (max-width: 788px) {
+      .navbar .ic {
+        display: block; } }
+  .navbar .logo {
+    color: #616060;
+    font-weight: bold; }
+  .navbar .search i {
+    margin-right: 20px; }
+  .navbar .active a {
+    color: #e99c2e !important; }
+
+.header {
+  margin-bottom: 60px;
+  color: #000; }
+  .header .kl {
+    padding-bottom: 60px; }
+  .header h4 {
+    color: #998d80; }
+  .header h1 {
+    color: #616060; }
+  .header p {
+    color: #a09e9c; }
+  .header .p1 {
+    color: #626161;
+    margin-bottom: 40px; }
+    .header .p1 span {
+      margin-left: 20px;
+      color: #bbb9b9;
+      text-decoration: line-through; }
+  .header .aa {
+    margin-top: 40px !important;
+    border: 1px solid transparent;
+    padding: 15px 40px;
+    color: #e99c2f; }
+    .header .aa:hover {
+      border: 1px solid #e99c2f;
+      color: #e99c2f;
+      background-color: #fff; }
+  .header .aa1 {
+    margin-top: 40px !important;
+    border: 1px solid transparent;
+    padding: 15px 40px;
+    background-color: #e99c2f;
+    color: #fff;
+    margin-right: 20px; }
+    .header .aa1:hover {
+      border: 1px solid #e99c2f;
+      color: #e99c2f;
+      background-color: #fff; }
+  .header .row {
+    padding-top: 100px !important; }
+  .header .carousel-control-next-icon {
+    display: none; }
+  .header .carousel-control-prev-icon {
+    display: none; }
+
+.carousel-indicators a {
+  background-color: #fff;
+  width: 9px;
+  height: 9px;
+  border-radius: 4px;
+  border: 2px solid #e99c2f;
+  margin-right: 15px; }
+
+.carousel-indicators .active {
+  position: relative;
+  background-color: #e99c2f;
+  border: 2px solid #e99c2f; }
+  .carousel-indicators .active::before {
+    top: -5px;
+    left: -5px;
+    margin-left: auto;
+    margin-right: auto;
+    content: '';
+    border: 1px solid #e99c2f;
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+    position: absolute; }
+
+.carousel-indicators {
+  padding-bottom: 20px; }
+
+.carousel {
+  background-color: #f8f9fd;
+  padding-bottom: 40px !important; }
+
+.carousel-inner {
+  padding-bottom: 20px; }
+
+.carousel-control-next {
+  display: none; }
+
+.carousel-control-prev {
+  display: none; }
+
+.sort {
+  margin-bottom: 60px; }
+  .sort .pac {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-bottom: 20px; }
+  .sort .l2 {
+    padding: 0 !important; }
+  .sort .ll {
+    min-height: 320px;
+    margin-bottom: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f9fc; }
+    @media (max-width: 992px) {
+      .sort .ll {
+        text-align: center;
+        margin: 0 auto !important;
+        max-width: 300px;
+        margin-bottom: 40px !important; } }
+    .sort .ll .tt {
+      text-align: left; }
+    .sort .ll h4 {
+      font-size: 20px;
+      padding: 20px;
+      color: #6b6764; }
+    .sort .ll a {
+      border: 1px solid #000;
+      padding: 5px 20px;
+      color: #73706d; }
+    .sort .ll h6 {
+      margin-bottom: 25px;
+      color: #64605c; }
+      .sort .ll h6 span {
+        color: #e99c2f; }
+    .sort .ll p {
+      color: #a19f9d; }
+    .sort .ll img {
+      margin: 0 auto !important; }
+  .sort .fl {
+    display: flex; }
 
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
