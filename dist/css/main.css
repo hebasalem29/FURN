@@ -358,6 +358,53 @@
     color: #a39e9a;
     font-size: 13px; }
 
+.log {
+  margin-bottom: 60px;
+  padding: 15px;
+  padding-top: 100px;
+  background-color: #f8f9fd; }
+  .log .dd {
+    margin-right: 15px !important;
+    margin-bottom: 50px; }
+    @media (max-width: 768px) {
+      .log .dd {
+        margin: 0 auto;
+        margin-bottom: 40px;
+        padding-top: 10px; } }
+
+.inform {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+  @media (max-width: 400px) {
+    .inform {
+      margin: 0 auto !important;
+      text-align: center;
+      margin-bottom: 20PX; } }
+  .inform h4 {
+    color: #5f5b57; }
+  .inform ul li a {
+    color: #a09e9c; }
+    .inform ul li a:hover {
+      color: #e99c2f !important; }
+
+.footer {
+  color: #a4aaaf;
+  padding: 25px;
+  background-color: #f8f9fd;
+  font-size: 15px;
+  font-weight: 500; }
+  .footer p:hover {
+    color: #e99c2f; }
+  .footer ul {
+    margin-bottom: 20px; }
+    .footer ul li {
+      display: inline-block;
+      margin-right: 15px; }
+      .footer ul li a {
+        color: #a4aaaf; }
+      .footer ul li:hover {
+        color: #e99c2f; }
+
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
