@@ -1,0 +1,1 @@
+$(function(){$(".lp").on("click",function(){$(".lp").siblings().removeClass("active"),$(this).addClass("active")}),$(window).on("scroll",function(){$(window).scrollTop()>600?($(".but").addClass("dis"),console.log("ho")):$(".but").removeClass("dis")})});

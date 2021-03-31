@@ -7,7 +7,10 @@
 .navbar {
   position: relative;
   background-color: #fff;
-  padding-top: 30px; }
+  padding-top: 30px;
+  position: fixed;
+  width: 100%;
+  z-index: 999; }
   @media (max-width: 788px) {
     .navbar .logo {
       text-align: center;
@@ -37,7 +40,10 @@
     color: #616060;
     font-weight: bold; }
   .navbar .search i {
-    margin-right: 20px; }
+    margin-right: 20px;
+    color: #616060; }
+    .navbar .search i:hover {
+      color: #e99c2e; }
   .navbar .active a {
     color: #e99c2e !important; }
 
@@ -178,7 +184,8 @@
 
 .arrival h2 {
   padding: 40px;
-  padding-bottom: 100px; }
+  padding-bottom: 100px;
+  color: #5f5b57; }
 
 @media (max-width: 786px) {
   .arrival .kber {
@@ -293,6 +300,11 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3); }
 
+.product h2 {
+  color: #5f5b57;
+  margin-bottom: 60px;
+  margin-top: 60px; }
+
 @media (max-width: 768px) {
   .product .box {
     max-width: 320px;
@@ -322,6 +334,9 @@
 .blog {
   margin-top: 60px;
   margin-bottom: 60px; }
+  .blog h2 {
+    margin-bottom: 50px;
+    color: #5f5b57; }
   @media (max-width: 768px) {
     .blog .box2 {
       max-width: 320px;
@@ -359,10 +374,10 @@
     font-size: 13px; }
 
 .log {
-  margin-bottom: 60px;
   padding: 15px;
   padding-top: 100px;
-  background-color: #f8f9fd; }
+  background-color: #f8f9fd;
+  margin-bottom: 100px; }
   .log .dd {
     margin-right: 15px !important;
     margin-bottom: 50px; }
@@ -373,8 +388,9 @@
         padding-top: 10px; } }
 
 .inform {
+  margin-bottom: 300px;
   margin-top: 60px;
-  margin-bottom: 60px; }
+  margin-bottom: 150px; }
   @media (max-width: 400px) {
     .inform {
       margin: 0 auto !important;
@@ -388,6 +404,7 @@
       color: #e99c2f !important; }
 
 .footer {
+  margin-bottom: 40px;
   color: #a4aaaf;
   padding: 25px;
   background-color: #f8f9fd;
@@ -404,6 +421,27 @@
         color: #a4aaaf; }
       .footer ul li:hover {
         color: #e99c2f; }
+
+.but {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  margin-bottom: 20px;
+  right: 30px;
+  background-color: #e99c2f;
+  padding: 10px;
+  position: fixed;
+  display: none;
+  z-index: 999;
+  top: 550px;
+  scroll-behavior: smooth; }
+  .but i {
+    color: #fff; }
+
+.dis {
+  display: inline; }
 
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com

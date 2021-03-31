@@ -1,0 +1,20 @@
+$(function()
+{
+    $('.lp').on('click',function()
+    {
+        $('.lp').siblings().removeClass('active');
+        $(this).addClass("active");
+    });
+    $(window).on('scroll',function()
+    {
+if($(window).scrollTop()>600)
+{
+    $('.but').addClass("dis");
+    console.log("ho");
+}
+else{
+    $(".but").removeClass("dis");
+    ;
+}
+    })
+})

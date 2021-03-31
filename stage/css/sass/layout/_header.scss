@@ -1,4 +1,6 @@
 .header{
+    
+    
     margin-bottom: 60px;
     .kl{
         padding-bottom: 60px;
@@ -204,7 +206,8 @@
 .arrival{
     h2{
         padding: 40px;
-        padding-bottom: 100px;
+        padding-bottom: 100px; 
+        color: #5f5b57;
     }
     .kber{
         @media(max-width:786px){
@@ -357,6 +360,11 @@
     }
 }
 .product{
+    h2{
+        color: #5f5b57;
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
     .box{
        
         @media(max-width:768px)
@@ -398,6 +406,10 @@
     
 }
 .blog{
+    h2{
+        margin-bottom: 50px;
+        color: #5f5b57;
+    }
    
    
     .box2{
@@ -461,7 +473,7 @@
   
 }
 .log{
-    margin-bottom: 60px;
+   
     padding: 15px;
     padding-top: 100px;
     background-color:#f8f9fd ;
@@ -476,8 +488,11 @@
         margin-right:  15px !important;
         margin-bottom: 50px;
     }
+    margin-bottom: 100px;
+    
 }
 .inform{
+    margin-bottom: 300px;
     @media(max-width:400px)
     {
         margin: 0 auto !important;
@@ -501,9 +516,10 @@
         }
     }
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 150px;
 }
 .footer{
+    margin-bottom: 40px;
     color: #a4aaaf;
     padding: 25px;
     background-color: #f8f9fd;
@@ -530,3 +546,30 @@
         }
     }
 }
+.but{
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+     margin-bottom: 20px;
+    right: 30px;
+    background-color: #e99c2f;
+    padding: 10px;
+    position: fixed;
+    display: none;
+z-index: 999;
+top:550px;
+
+    i{
+        color: #fff;
+    }
+    scroll-behavior: smooth;
+    
+}
+.dis{
+    display: inline;
+}
+ 
+
