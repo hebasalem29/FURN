@@ -124,7 +124,8 @@
   padding-bottom: 40px !important; }
 
 .carousel-inner {
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  padding-top: 50px; }
 
 .carousel-control-next {
   display: none; }
@@ -385,7 +386,8 @@
       .log .dd {
         margin: 0 auto;
         margin-bottom: 40px;
-        padding-top: 10px; } }
+        padding-top: 10px;
+        text-align: center; } }
 
 .inform {
   margin-bottom: 300px;
